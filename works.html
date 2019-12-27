@@ -1,0 +1,534 @@
+<!doctype html>
+
+
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Saba Rana Photography</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body class=" ">
+
+    <!-- LOADING -->
+
+    <div id="overlay">
+        <div id="loading-items">
+            <a href="#" class="logo-loading" title="Saba Rana ">
+      <svg width="100px" height="28px" id="logo">
+        <img src="assets/img/general/logo.png"/>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+      </svg>
+    </a>
+            <h5 id="progstat"></h5>
+        </div>
+    </div>
+    <div id="content-overlay"></div>
+    <div id="progress-overlay"></div>
+
+
+    <!-- /LOADING -->
+
+
+
+    <div id="svg-sprite" style="display: none">
+
+        <svg xmlns="http://www.w3.org/2000/svg">
+
+		<!-- arrow left -->
+		<symbol viewBox="0 0 14 26" id="icn_arrow_left">
+			<path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"/> 
+		</symbol>
+
+		<!-- arrow right -->
+		<symbol viewBox="0 0 14 26" id="icn_arrow_right">
+			<path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"/>
+		</symbol>
+
+		<!-- map pin -->
+		<symbol viewBox="0 0 9 13" id="icn_map_pin">
+			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g id="6.contact-us" transform="translate(-977.000000, -67.000000)" fill="#F26724">
+	        <g id="Menu" transform="translate(81.000000, 37.000000)">
+	          <g id="Group-10" transform="translate(603.000000, 27.000000)">
+							<path d="M297.493232,16 C297.605734,16 297.712366,15.4875294 297.786715,15.4031079 C297.959283,15.2072343 302.014051,10.5685558 301.999963,7.50979368 C301.988811,5.02317838 299.970036,3 297.50008,3 C295.018579,3 293,5.02396187 293,7.51175242 C293,10.5687516 297.027571,15.2062549 297.199161,15.4021285 C297.273315,15.4869418 297.37486,15.5329721 297.493232,15.5357143 L297.493232,16 Z M297.500094,6 C296.67298,6 296,6.6729375 296,7.5 C296,8.32725 296.67298,9 297.500094,9 C298.327208,9 299,8.32725 299,7.5 C299,6.6729375 298.327208,6 297.500094,6 Z" id="17-copy-17"></path>
+						</g>
+					</g>
+				</g>
+			</g>
+		</symbol>
+
+
+
+    <!-- SabaRana LOGO -->
+
+    <symbol id="SabaRana_logo" viewBox="0 0 389 85">
+      <path d="M337.367273,53.6490909 C330.703636,54.5672727 325.912727,56.1218182 323.167273,58.3036364 C320.476364,60.4218182 319.103636,63.3581818 319.103636,67.0309091 C319.103636,70.8854545 320.549091,73.9036364 323.530909,76.2218182 C326.503636,78.5218182 330.585455,79.6945455 335.676364,79.6945455 C339.021818,79.6945455 342.067273,79.1763636 344.712727,78.14 C347.376364,77.1127273 349.621818,75.64 351.394545,73.7490909 C353.676364,71.4309091 355.249091,69.1218182 356.076364,66.8672727 C356.921818,64.5672727 357.358182,61.2763636 357.358182,57.0581818 L357.358182,51.3490909 C350.976364,51.8763636 344.258182,52.6490909 337.367273,53.6490909 Z M363.976364,83.1854545 L358.794545,83.1854545 L358.730909,82.8218182 C358.130909,79.8763636 357.803636,76.5581818 357.730909,72.9127273 C355.621818,76.3036364 352.767273,79.0309091 349.267273,81.0218182 C345.358182,83.2309091 340.549091,84.3581818 334.94,84.3581818 C328.567273,84.3581818 323.367273,82.7672727 319.485455,79.6218182 C315.585455,76.4672727 313.603636,72.2672727 313.603636,67.14 C313.603636,62.1763636 315.412727,58.1581818 318.985455,55.1945455 C322.512727,52.2581818 328.485455,50.1672727 336.74,48.9854545 C344.476364,47.9309091 351.412727,47.1490909 357.358182,46.6763636 L357.358182,43.6945455 C357.358182,37.7672727 355.794545,33.3127273 352.703636,30.4309091 C349.621818,27.5581818 345.349091,26.1036364 340.030909,26.1036364 C334.376364,26.1036364 329.94,27.4854545 326.849091,30.2127273 C323.758182,32.9309091 322.030909,36.6127273 321.712727,41.1581818 L321.685455,41.5763636 L316.176364,41.5763636 L316.212727,41.0854545 C316.64,35.1309091 318.949091,30.3218182 323.085455,26.7672727 C327.203636,23.2309091 332.912727,21.4490909 340.030909,21.4490909 C346.903636,21.4490909 352.449091,23.34 356.503636,27.0672727 C360.567273,30.8218182 362.612727,36.5309091 362.612727,44.0490909 L362.612727,68.7854545 C362.612727,74.3672727 363.030909,79.0309091 363.849091,82.6309091 L363.976364,83.1854545 Z M282.485455,78.7763636 L271.34,51.1581818 L260.285455,23.9127273 L254.467273,23.9127273 L279.085455,84.0763636 L279.203636,84.3581818 L285.767273,84.3581818 L310.376364,24.5309091 L310.64,23.9127273 L304.803636,23.9127273 L282.485455,78.7763636 Z M238.512727,33.1490909 C234.558182,28.4763636 228.94,26.1127273 221.830909,26.1127273 C214.794545,26.1127273 209.221818,28.4763636 205.276364,33.1490909 C201.303636,37.8581818 199.294545,44.4854545 199.294545,52.84 C199.294545,61.2036364 201.303636,67.84 205.276364,72.5309091 C209.212727,77.2127273 214.794545,79.5854545 221.830909,79.5854545 C228.949091,79.5854545 234.558182,77.2127273 238.512727,72.5309091 C242.476364,67.8490909 244.494545,61.2218182 244.494545,52.84 C244.494545,44.4672727 242.476364,37.8490909 238.512727,33.1490909 Z M242.485455,29.7490909 C247.476364,35.3036364 250.003636,43.0763636 250.003636,52.84 C250.003636,62.6127273 247.476364,70.3854545 242.485455,75.94 C237.503636,81.5218182 230.549091,84.3581818 221.830909,84.3581818 C213.112727,84.3581818 206.176364,81.5218182 201.230909,75.94 C196.285455,70.3854545 193.785455,62.6036364 193.785455,52.84 C193.785455,43.0763636 196.285455,35.3036364 201.230909,29.7490909 C206.176364,24.1672727 213.112727,21.3309091 221.830909,21.3309091 C230.549091,21.3309091 237.503636,24.1672727 242.485455,29.7490909 Z M186.403636,23.5490909 C181.621818,23.5490909 177.421818,24.6218182 173.921818,26.7218182 C170.849091,28.5854545 168.34,31.1581818 166.467273,34.3945455 L166.467273,23.9127273 L161.085455,23.9127273 L161.085455,84.3581818 L166.467273,84.3581818 L166.467273,50.8490909 C166.467273,43.6581818 168.267273,38.1036364 171.812727,34.34 C175.367273,30.5945455 180.312727,28.44 186.521818,28.44 C187.567273,28.44 188.730909,28.5218182 190.076364,28.6672727 L190.585455,28.7218182 L190.585455,23.9854545 L190.212727,23.9127273 C189.012727,23.6763636 187.721818,23.5490909 186.403636,23.5490909 Z M133.730909,72.5309091 C137.694545,67.8490909 139.712727,61.2218182 139.712727,52.84 C139.712727,44.4672727 137.694545,37.8490909 133.730909,33.1490909 C129.776364,28.4763636 124.167273,26.1127273 117.049091,26.1127273 C110.003636,26.1127273 104.44,28.4763636 100.485455,33.1490909 C96.5218182,37.8581818 94.5036364,44.4854545 94.5036364,52.84 C94.5036364,61.2036364 96.5218182,67.84 100.485455,72.5309091 C104.430909,77.2127273 110.003636,79.5854545 117.049091,79.5854545 C124.176364,79.5854545 129.785455,77.2127273 133.730909,72.5309091 Z M137.703636,29.7490909 C142.694545,35.3036364 145.212727,43.0763636 145.212727,52.84 C145.212727,62.6127273 142.694545,70.3854545 137.703636,75.94 C132.712727,81.5218182 125.767273,84.3581818 117.049091,84.3581818 C108.34,84.3581818 101.403636,81.5218182 96.4490909,75.94 C91.5036364,70.3854545 89.0036364,62.6036364 89.0036364,52.84 C89.0036364,43.0763636 91.5036364,35.3036364 96.4490909,29.7490909 C101.403636,24.1672727 108.34,21.3309091 117.049091,21.3309091 C125.767273,21.3309091 132.712727,24.1672727 137.703636,29.7490909 Z M67.8672727,84.3581818 L73.2490909,84.3581818 L73.2490909,0.00363636364 L67.8672727,0.00363636364 L67.8672727,84.3581818 Z M49.5036364,62.3854545 L52.6218182,62.3854545 C52.0218182,68.8854545 49.4218182,74.2309091 44.8854545,78.2672727 C40.34,82.3036364 34.5490909,84.3581818 27.6854545,84.3581818 C19.1309091,84.3581818 12.3036364,81.5218182 7.39454545,75.94 C2.48545455,70.3854545 0.00363636364,62.6036364 0.00363636364,52.84 C0.00363636364,43.0854545 2.48545455,35.3036364 7.39454545,29.7490909 C12.3036364,24.1672727 19.1309091,21.3309091 27.6854545,21.3309091 C34.54,21.3309091 40.3309091,23.3218182 44.8763636,27.24 C49.4218182,31.1672727 52.0218182,36.3763636 52.6218182,42.7218182 L47.4309091,42.7309091 C47.0127273,37.8309091 44.5672727,33.8036364 41.04,30.74 C37.5127273,27.6763636 33.0127273,26.1127273 27.6854545,26.1127273 C20.8127273,26.1127273 15.34,28.4763636 11.4218182,33.1490909 C7.50363636,37.8672727 5.50363636,44.4854545 5.50363636,52.84 C5.50363636,61.2036364 7.50363636,67.8309091 11.4218182,72.5309091 C15.3309091,77.2127273 20.8036364,79.5854545 27.6854545,79.5854545 C33.0127273,79.5854545 37.4854545,77.9490909 40.9763636,74.7127273 C44.4672727,71.5127273 46.4854545,67.3490909 46.9763636,62.3672727 L49.5036364,62.3854545 Z" id="Fill-1" fill="#FEFEFE"></path>
+                    <polygon id="Fill-4" fill="#EC2026" points="378.790909 84.3572727 388.372727 84.3572727 388.372727 68.8936364 378.790909 68.8936364"></polygon>
+    </symbol>
+
+	</svg>
+
+    </div>
+
+    <div id="head" class="header">
+        <a href="/" class="logo hover-target" id="main-logo" title="Saba Rana">
+            <div class="logo-wrap" id="logo-wrap">
+				<img src="assets/img/general/logo.png"/>
+            </div>
+            <div class="logo-box" id="logo-box"></div>
+        </a>
+
+        <a href="/works" class="works q_magnet hover-target">All Works</a></li>
+
+        <div class="nav-menu hover-target" id="nav">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="text">Menu</span>
+        </div>
+    </div>
+
+    <div class="menu-overlay" id="menu-overlay"></div>
+
+    <div id="menu" class="menu hideOnLoad">
+
+        <div class="section_fixed" id="menu-inner">
+            <div class="section__clip" id="menuClip">
+                <div class="section__content">
+
+                    <header>
+                        <div class="header-wrap">
+
+                        </div>
+                    </header>
+
+                    <div class="nav-menu close hover-target" id="navClose">
+                        <span class="line"></span>
+                    </div>
+
+
+                    <div class="menu-content">
+
+
+                        <div class="columns">
+                            <div class="column q-1-5">
+                                <span class="line"></span>
+                                <a href="about.html" class="flare-hover hover-target barba_nav">
+                                    <h1 class="large">
+                                        <span class="q_split"><span class="q_split_wrap menu-item">About</span> </span>
+                                    </h1>
+                                </a>
+
+
+                            </div>
+                            <div class="column q-1-5">
+                                <span class="line"></span>
+                                <a href="mailto:sabarana1994@gmail.com" title="Contact SabaRana" class="flare-hover hover-target">
+                                    <h1 class="large">
+                                        <span class="q_split"><span class="q_split_wrap menu-item">Contact</span> </span>
+                                    </h1>
+                                </a>
+                                <div class="text">
+                                    <h5>Connect with me on Social media</h5>
+                                    <p>
+                                        <a class="hover-target" href="https://www.facebook.com/sabaranaphotos" target="_blank" title="SabaRana on Facebook">Fb &nbsp; &nbsp;</a>
+                                        <a class="hover-target" href="https://www.instagram.com/sabaaranaa/" target="_blank" title="SabaRana on Instagram">Ig &nbsp; &nbsp;</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class='cursor' id="cursor"></div>
+    <div class='cursor2' id="cursor2"></div>
+    <div class='cursor3' id="cursor3"></div>
+
+    <div id="dynamicLoad" class="dynamic_load">
+        <div class="progress">
+            <div class="bar" id="dynamicBar"></div>
+        </div>
+    </div>
+
+
+    <div id="barba-wrapper">
+        <div class="barba-container">
+
+
+
+            <div id="main" class="q_horizontal">
+
+
+                <div class="works-wrapper">
+
+
+
+                    <a href="/works/1.jpg" class="works-item hover-target">
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/1.jpg');background-size:cover !important;">
+                                    <img src="./assets/img/works/1.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+
+                    <a href="/works/2.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/2.jpg')">
+                                    <img src="./assets/img/works/2.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+
+                    <a href="/works/3.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/3.jpg')">
+                                    <img src="./assets/img/works/3.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+
+
+
+
+
+                    <a href="/works/4.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/4.jpg')">
+                                    <img src="./assets/img/works/4.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+
+                    <a href="/works/5.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/5.jpg')">
+                                    <img src="./assets/img/works/5.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+
+                    <a href="/works/6.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/6.jpg')">
+                                    <img src="./assets/img/works/6.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+					
+					<a href="/works/7.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/7.jpg')">
+                                    <img src="./assets/img/works/7.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+					
+					<a href="/works/8.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/8.jpg')">
+                                    <img src="./assets/img/works/8.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+					
+					<a href="/works/9.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/9.jpg')">
+                                    <img src="./assets/img/works/9.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+					
+					<a href="/works/10.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/10.jpg')">
+                                    <img src="./assets/img/works/10jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+					
+					<a href="/works/11.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/11.jpg')">
+                                    <img src="./assets/img/works/11.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+					
+					<a href="/works/12.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/12.jpg')">
+                                    <img src="./assets/img/works/12.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+					
+					<a href="/works/13.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/13.jpg')">
+                                    <img src="./assets/img/works/13.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+					
+					<a href="/works/14.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/14.jpg')">
+                                    <img src="./assets/img/works/14.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+					
+					<a href="/works/15.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/15.jpg')">
+                                    <img src="./assets/img/works/15.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+					
+					<a href="/works/16.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/16.jpg')">
+                                    <img src="./assets/img/works/16.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+					
+					<a href="/works/17.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/17.jpg')">
+                                    <img src="./assets/img/works/17.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+					
+					<a href="/works/18.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/18.jpg')">
+                                    <img src="./assets/img/works/18.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+					
+					<a href="/works/19.jpg" class="works-item hover-target">
+                        <date> <span></span> </date>
+                        <figure class="image-container">
+                            <div class="work-image-wrapper vsh" data-speed="-.1">
+                                <div class="work-image" style="background-image:url('./assets/img/works/thumbs/19.jpg')">
+                                    <img src="./assets/img/works/19.jpg" alt="Saba Rana" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="text vsh" data-speed=".2">
+                            <h5></h5>
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </a>
+
+                    <div class="reveal">
+                        <div class="rev_item"></div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+    <script src="assets/js/scripts.js"></script>
+
+</body>
+
+</html>
